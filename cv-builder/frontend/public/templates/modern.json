@@ -1,0 +1,22 @@
+{
+  "id": "modern",
+  "name": "Modern",
+  "defaultContent": {
+    "meta": { "title": "", "templateId": "modern", "language": "en", "lastModified": "" },
+    "style": {
+      "fontFamily": "Inter",
+      "fontSize": { "base": 14, "heading": 20, "subheading": 16 },
+      "colors": { "primary": "#1a56db", "secondary": "#374151", "accent": "#e5edff", "text": "#111827", "background": "#ffffff" },
+      "spacing": { "sectionGap": 24, "itemGap": 12, "pagePadding": 40 },
+      "layout": "single-column"
+    },
+    "sections": [
+      { "type": "header", "id": "header-1", "visible": true, "data": { "fullName": "", "title": "", "email": "", "phone": "", "location": "", "summary": "" } },
+      { "type": "experience", "id": "exp-1", "visible": true, "title": "Work Experience", "items": [] },
+      { "type": "education", "id": "edu-1", "visible": true, "title": "Education", "items": [] },
+      { "type": "skills", "id": "skills-1", "visible": true, "title": "Skills", "displayStyle": "tags", "groups": [] },
+      { "type": "projects", "id": "proj-1", "visible": true, "title": "Projects", "items": [] },
+      { "type": "certifications", "id": "cert-1", "visible": true, "title": "Certifications", "items": [] }
+    ]
+  }
+}

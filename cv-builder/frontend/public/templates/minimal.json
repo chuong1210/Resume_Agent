@@ -1,0 +1,20 @@
+{
+  "id": "minimal",
+  "name": "Minimal",
+  "defaultContent": {
+    "meta": { "title": "", "templateId": "minimal", "language": "en", "lastModified": "" },
+    "style": {
+      "fontFamily": "Roboto",
+      "fontSize": { "base": 13, "heading": 18, "subheading": 15 },
+      "colors": { "primary": "#2563eb", "secondary": "#6b7280", "accent": "#f8fafc", "text": "#1e293b", "background": "#ffffff" },
+      "spacing": { "sectionGap": 22, "itemGap": 10, "pagePadding": 32 },
+      "layout": "single-column"
+    },
+    "sections": [
+      { "type": "header", "id": "header-1", "visible": true, "data": { "fullName": "", "title": "", "email": "", "phone": "", "location": "", "summary": "" } },
+      { "type": "experience", "id": "exp-1", "visible": true, "title": "Experience", "items": [] },
+      { "type": "education", "id": "edu-1", "visible": true, "title": "Education", "items": [] },
+      { "type": "skills", "id": "skills-1", "visible": true, "title": "Skills", "displayStyle": "tags", "groups": [] }
+    ]
+  }
+}
