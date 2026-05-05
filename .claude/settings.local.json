@@ -14,7 +14,12 @@
       "Bash(python -m py_compile agents/cv_chat_agent.py)",
       "Bash(python -m py_compile agents/jd_tailor_agent.py)",
       "Bash(dotnet restore *)",
-      "Bash(dotnet clean *)"
+      "Bash(dotnet clean *)",
+      "Bash(docker compose *)",
+      "Bash(where docker *)",
+      "Bash(where \"Docker Desktop\")",
+      "Read(//c/Program Files/Docker/Docker/**)",
+      "Bash(start *)"
     ]
   }
 }
